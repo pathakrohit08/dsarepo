@@ -10,7 +10,7 @@ class Stack:
     def pop(self):
         return self.stack.pop()
 
-    def peek(self,value):
+    def peek(self):
         return self.stack[len(self.stack)-1]
 
     def size(self):
